@@ -282,9 +282,9 @@ public class NeuralNetwork {
                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
         newForward(check);
         double res = doubleScale(result);
-        System.out.println("\n+- - - - - +- - - - - - +");
-        System.out.println("| RESULT   | " + (res > 0.1 ? "1" : "0") + " - " + res * 100 + "%");
-        System.out.println("+- - - - - +- - - - - - +");
+        System.out.println("\n+- - - - - +- - +");
+        System.out.println("| RESULT   | " + (res > 0.1 ? "1" : "0")+"  |");
+        System.out.println("+- - - - - +- - +");
     }
 
     public static void main(String[] args) {
